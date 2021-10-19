@@ -1,0 +1,35 @@
+{
+  "name": "firebed/skroutz-xml-feed",
+  "description": "Laravel Skroutz Product XML Feed",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "okang",
+      "email": "okan.giritli@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "illuminate/http": "^8.0",
+    "illuminate/support": "^8.0",
+    "illuminate/console": "^8.0",
+    "nesbot/carbon": "^2.0"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "Firebed\\Skroutz\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Firebed\\Skroutz\\SkroutzServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
